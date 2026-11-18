@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dim Sum | Freshly Made, Happily Delivered</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><script defer src="app.js"></script>
+</head>
+<body>
+<div class="topline">Freshly prepared • Delivered with love • Open daily 11 AM – 11 PM</div>
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">✦</span> Dim<span>Sum</span></a>
+<button class="mobile-menu" aria-label="Open navigation" onclick="document.querySelector('.nav').classList.toggle('show')">☰</button>
+<nav class="nav"><a class="active" href="index.html">Home</a><a href="menu.html">Menu</a><a href="offers.html">Offers</a><a href="about.html">Our Story</a>
+    <a href="contact.html">Contact</a></nav>
+<div class="header-actions"><a class="icon-link" href="cart.html">Bag <span class="cart-count">0</span></a></div></header>
+<main>
+<section class="hero"><div class="hero-copy"><span class="eyebrow">GOOD FOOD. GREAT MOOD.</span><h1>Big cravings.<br><em>Bigger flavours.</em></h1>
+    <p>Comfort food, made fresh in our kitchen and delivered straight to your door. Your next favourite meal is just a few clicks away.</p>
+    <div class="hero-actions"><a class="btn btn-primary" href="menu.html">Explore menu <span>↗</span></a><a class="text-link" href="about.html">Get to know us →</a>
+    </div><div class="hero-proof"><div class="avatars"><span>🥗</span><span>🍔</span><span>🍕</span></div><div><b>Made fresh, every order</b>
+        <small>Good ingredients. Happy plates.</small></div></div></div>
+<div class="hero-visual"><div class="hero-photo"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=1200" alt="Fresh colourful meal bowl"></div><div class="floating-note"><span>★ 4.9/5</span><small>Loved by foodies</small></div><div class="round-stamp">FRESH<br>• DAILY •</div></div></section>
+<section class="benefits"><div><span>✦</span><b>Freshly cooked</b><small>Made when you order</small></div><div><span>⌁</span><b>Quick delivery</b><small>Hot food, happy you</small></div><div><span>♡</span><b>Quality first</b><small>Ingredients we trust</small></div><div><span>☻</span><b>Made with care</b><small>A little joy in every bite</small></div></section>
+<section class="section"><div class="section-heading"><div><span class="eyebrow">A LITTLE SOMETHING FOR EVERYONE</span>
+    <h2>Explore our menu</h2></div><a class="text-link" href="menu.html">View full menu →</a></div><div class="category-tiles">
+<a href="menu.html?category=Pizza" class="category-tile"><img src="https://images.unsplash.com/photo-157 pizza?w=600" onerror="this.src='https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600'" alt="Pizza"><span>Pizza</span><b>Cheesy favourites ↗</b></a>
+<a href="menu.html?category=Burgers" class="category-tile"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600" alt="Burger"><span>Burgers</span><b>Stacked with flavour ↗</b></a>
+<a href="menu.html?category=Biryani" class="category-tile"><img src="https://images.unsplash.com/photo-1563379091339-03246963d51a?w=600" alt="Biryani"><span>Biryani</span><b>Slow-cooked comfort ↗</b></a>
+</div></section>
+<section class="feature-banner"><div><span class="eyebrow light">THE CRAVE COMBO</span><h2>Your comfort food<br>called. It wants a combo.</h2>
+    <p>Pair your favourite main with a side and a drink. More deliciousness, better value.</p><a class="btn btn-light" href="offers.html">See today's offers →</a>
+</div><div class="banner-art">🍔<span>+</span>🍟<span>+</span>🥤</div></section>
+<section class="section"><div class="section-heading"><div><span class="eyebrow">FAN FAVOURITES</span><h2>Popular right now</h2>
+</div><a class="text-link" href="menu.html">See everything →</a></div><div id="featured-products" class="product-grid"></div></section>
+<section class="newsletter"><div><span class="eyebrow">THE GOOD STUFF, FIRST</span><h2>A little treat in your inbox.</h2>
+    <p>Sign up for menu drops, kitchen updates and occasional offers.</p></div><form onsubmit="subscribe(event)">
+        <input type="email" placeholder="Your email address" required><button class="btn btn-primary">Join us →</button></form></section>
+</main>
+<footer class="footer"><div><a class="brand brand-footer" href="index.html">✦ crave<span>kitchen</span></a><p>Good food, made with a little extra love.</p>
+</div><div><b>Explore</b><a href="menu.html">Menu</a><a href="offers.html">Offers</a>
+    <a href="about.html">Our story</a></div><div><b>Need help?</b><a href="contact.html">Contact us</a>
+        <a href="cart.html">Your bag</a><a href="admin.html">Kitchen admin</a></div><div><b>Find us</b>
+            <p>📍 Your neighbourhood, India</p><p>☎ +91 9073762195</p><p>Open daily · 11 AM – 11 PM</p></div><div class="copyright">© 2026 Dim Sum.
+                 Demo storefront — replace sample details before launch.</div></footer>
+</body></html>
